@@ -1,0 +1,21 @@
+---
+title: Projet perso
+---
+
+# Météo en temps réel
+
+Ville : {city}
+
+Température : {temperature}°C
+
+Probabilité de précipitations : {precipitation}%
+
+```{python}
+import requests
+
+api_key = 'VOTRE_CLE_API'
+city = 'Montpellier' 
+url = f'https://api.open-meteo.com/v1/forecast?hourly=&daily=weather_code,precipitation_sum,rain_sum,showers_sum,snowfall_sum,precipitation_probability_max&timezone=Europe%2FBerlin&city={city}&apikey={api_key}'
+
+response = requests.get(url)
+data = response.json()
