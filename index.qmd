@@ -1,7 +1,7 @@
 ---
 title: Météo Jeanne
 ---
-
+```{python}
 import openmeteo_requests
 
 import requests_cache

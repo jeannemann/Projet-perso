@@ -3,8 +3,8 @@ project:
   output-dir: docs
 website:
   title: "Site météo de Jeanne"
-  site-url: https://josephsalmon.github.io/Tweets/
-  repo-url: https://github.com/josephsalmon/Tweets
+  site-url: https://jeannemann.github.io/Projet-perso/
+  repo-url: https://github.com/jeannemann/Projet-perso
   page-navigation: true
   repo-actions: [source, issue]
   sidebar:
@@ -13,10 +13,10 @@ website:
       - text: "Overview"
         href: economics/index.qmd
 
-  # navbar:
-  #   left:
-  #     - href: index.qmd
-  #       text: HAX712X
+   navbar:
+     left:
+       - href: index.qmd
+         text: Météo
 format:
   html:
     theme:
