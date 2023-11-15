@@ -71,6 +71,7 @@ print(daily_dataframe)
   <title>Votre Site Web</title>
 </head>
 <body>
-  <!-- Contenu de votre site ici -->
+  <!-- Faisons un test -->
 </body>
 </html>
+```
