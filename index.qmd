@@ -61,3 +61,16 @@ daily_data["wind_speed_10m_max"] = daily_wind_speed_10m_max
 
 daily_dataframe = pd.DataFrame(data = daily_data)
 print(daily_dataframe)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Votre Site Web</title>
+</head>
+<body>
+  <!-- Contenu de votre site ici -->
+</body>
+</html>
