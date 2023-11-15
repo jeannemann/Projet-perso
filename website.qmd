@@ -1,8 +1,0 @@
----
-title: Météo Jeanne
----
-
-```{css}
-body {
-background-color: lightblue;
-}
