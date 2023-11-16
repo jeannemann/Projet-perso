@@ -2,6 +2,8 @@
 title: Météo Jeanne
 ---
 ```{python}
+#| echo: false
+# %%
 import openmeteo_requests
 
 import requests_cache
@@ -63,9 +65,19 @@ daily_data["wind_speed_10m_max"] = daily_wind_speed_10m_max
 daily_dataframe = pd.DataFrame(data = daily_data)
 print(daily_dataframe)
 
-from IPython.display import HTML
-from tabulate import tabulate
-"""
+from IPython.display import display,HTML
+
+html_content="""
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple de Tableau HTML</title>
+  <!-- Vous pouvez ajouter des styles supplémentaires ici si nécessaire -->
+</head>
+<body>
+
+<h2>Mon Tableau</h2>
+
 <table>
   <thead>
     <tr>
@@ -93,4 +105,5 @@ from tabulate import tabulate
   </tbody>
 </table>
 """
+display(HTML(html_content))
 ```
