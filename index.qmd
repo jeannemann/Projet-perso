@@ -8,6 +8,7 @@ import requests_cache
 import pandas as pd
 from retry_requests import retry
 
+
 # Setup the Open-Meteo API client with cache and retry on error
 cache_session = requests_cache.CachedSession('.cache', expire_after = 3600)
 retry_session = retry(cache_session, retries = 5, backoff_factor = 0.2)
@@ -15,7 +16,7 @@ openmeteo = openmeteo_requests.Client(session = retry_session)
 
 # Make sure all required weather variables are listed here
 # The order of variables in hourly or daily is important to assign them correctly below
-url = "https://api.open-meteo.com/v1/meteofrance"
+url = "https://api.open-meteo.com/v1/meteofrance?latitude=43.6109&longitude=3.8763&daily=temperature_2m_max,temperature_2m_min,sunrise,sunset,uv_index_max,precipitation_sum,rain_sum,snowfall_sum,wind_speed_10m_max&timezone=Europe%2FBerlin"
 params = {
 	"latitude": 43.6109,
 	"longitude": 3.8763,
