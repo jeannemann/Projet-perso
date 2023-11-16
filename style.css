@@ -35,15 +35,4 @@ body, h1, h2, h3, p, ul, li {
   /* Style du contenu textuel */
   p {
     line-height: 1.5; /* Espacement entre les lignes pour une meilleure lisibilité */
-  }
-  
-  /* Style de la liste non ordonnée */
-  ul {
-    list-style-type: none; /* Supprime les puces de la liste */
-  }
-  
-  /* Style des éléments de liste */
-  li {
-    margin-bottom: 5px; /* Marge en bas de chaque élément de liste */
-  }
-  
+  }  

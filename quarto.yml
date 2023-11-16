@@ -37,3 +37,4 @@ format:
     fig.align: center
     # self-contained: true
     # fig-format: svg
+editor: visual
