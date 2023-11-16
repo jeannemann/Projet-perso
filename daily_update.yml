@@ -1,0 +1,16 @@
+name: Daily Update
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Exécute tous les jours à 3h du matin UTC
+
+jobs:
+  update:
+    runs-on: debian-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Run Update Script
+        run: update_data.sh 
