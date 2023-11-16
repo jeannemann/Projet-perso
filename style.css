@@ -1,38 +1,17 @@
-/* Reset des marges et des paddings pour tous les éléments */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Définition d'une police de caractères générique */
-  body {
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Style du corps de la page avec un fond bleu */
-  body {
-    background-color: #74bae9; /* Bleu clair, vous pouvez ajuster la couleur selon vos préférences */
-    color: #fff; /* Texte en blanc pour contraster avec le fond bleu */
-  }
-  head {
-    color: #4696e6
-  }
-  /* Style des liens */
-  a {
-    color: #fff; /* Couleur du texte pour les liens */
-    text-decoration: none; /* Pas de soulignement sur les liens */
-  }
-  
-  a:hover {
-    text-decoration: underline; /* Soulignement lorsqu'on survole les liens */
-  }
-  
-  /* Style des titres */
-  h1, h2, h3 {
-    color: #fff; /* Couleur du texte pour les titres */
-  }
-  
-  /* Style du contenu textuel */
-  p {
-    line-height: 1.5; /* Espacement entre les lignes pour une meilleure lisibilité */
-  }  
+/* Style du corps de la page avec un fond bleu */
+body {
+  background-color: #74bae9; /* Bleu clair, vous pouvez ajuster la couleur selon vos préférences */
+  color: #fff; /* Texte en blanc pour contraster avec le fond bleu */
+}
+head {
+  color: #4696e6
+}
+
+a:hover {
+  text-decoration: underline; /* Soulignement lorsqu'on survole les liens */
+}
+
+/* Style du contenu textuel */
+p {
+  line-height: 1.5; /* Espacement entre les lignes pour une meilleure lisibilité */
+}  
