@@ -3,4 +3,5 @@ Le but de ce projet est de créer un site internet donnant les prévisions mét�
 
 Vous pourrez retrouver le site créé à l'adresse suivante : https://jeannemann.github.io/Projet-perso/
 
-
+# Problème(s) rencontré(s)
+Pour une raison que j'ignore toujours, je n'ai pas réussi à appliquer mon fichier .css à mon site pour lui apporter les modifications de style que je voulais.
