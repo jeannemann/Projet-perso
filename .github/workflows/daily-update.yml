@@ -20,7 +20,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install pandas requests-cache retry_requests openmeteo_requests
+          pip install pandas requests-cache retry_requests openmeteo_requests jupyter pyyaml
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
