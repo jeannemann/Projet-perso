@@ -98,14 +98,6 @@ def dir(daily_wind_direction_10m_dominant):
 from IPython.display import display,HTML
 
 html_content=f"""
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exemple de Tableau HTML</title>
-  <!-- Vous pouvez ajouter des styles supplémentaires ici si nécessaire -->
-</head>
-<body>
-
 <table>
   <thead>
     <tr>
