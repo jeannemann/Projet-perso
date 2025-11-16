@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+
 website:
   title: "Site météo de Jeanne"
   site-url: https://jeannemann.github.io/Projet-perso/
@@ -13,17 +13,16 @@ website:
       - text: "Overview"
         href: economics/index.qmd
 
-   navbar:
-     left:
-       - href: index.qmd
-         text: Météo
+  navbar:
+    left:
+      - href: index.qmd
+        text: Météo
+
 format:
   html:
     theme:
-      cosmo
-      # light: spacelab
+      - cosmo
     css: style.css
-    # mainfont: Atkinson Hyperlegible
     html-math-method: katex
     toc-location: right
     toc: true
@@ -35,6 +34,5 @@ format:
     code-overflow: wrap
     fig-responsive: true
     fig.align: center
-    # self-contained: true
-    # fig-format: svg
+
 editor: visual
