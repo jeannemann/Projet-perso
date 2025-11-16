@@ -2,8 +2,8 @@ name: Daily Update
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # tous les jours à 3h UTC
-  workflow_dispatch:    # permet de lancer manuellement si besoin
+    - cron: '0 3 * * *'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -16,19 +16,21 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.12
+          python-version: '3.12'
 
-      - name: Install Dependencies
+      - name: Install Python packages
         run: |
-          pip install pandas requests-cache retry_requests openmeteo_requests jupyter pyyaml
+          pip install pandas requests-cache retry_requests openmeteo_requests jupyter pyyaml quarto
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: '1.5.57'
 
-      - name: Render Quarto site
+      - name: Render site
         run: quarto render
 
-      - name: Commit and push changes
+      - name: Push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -37,4 +39,3 @@ jobs:
           git push origin HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
