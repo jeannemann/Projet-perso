@@ -7,17 +7,7 @@ website:
   repo-url: https://github.com/jeannemann/Projet-perso
   page-navigation: true
   repo-actions: [source, issue]
-  sidebar:
-    search: true
-    contents:
-      - text: "Overview"
-        href: economics/index.qmd
-
-  navbar:
-    left:
-      - href: index.qmd
-        text: Météo
-
+  
 format:
   html:
     theme:
