@@ -149,6 +149,4 @@ html_content=f"""
 </table>
 """
 display(HTML(html_content))
-
-Site créé
 ```

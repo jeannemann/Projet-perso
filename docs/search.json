@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Météo à Montpellier",
+    "section": "",
+    "text": "Ce site affiche les prévisions météorologiques pour Montpellier, France, en utilisant l’API Open-Meteo. Les données sont mises à jour quotidiennement à 5h00 (UTC) via un workflow GitHub Actions. Le code source est disponible sur GitHub.\n\n\n\n\n\n\n\nDonnées\nAujourd'hui\nDemain (J+1)\nJ+2\nJ+3\n\n\n\n\nTempérature max\n19°C\n14°C\n12°C\n10°C\n\n\nTempérature min\n10°C\n5°C\n2°C\n2°C\n\n\nMétéo du jour\n\n\n\n\n\n\nSomme des précipitations\n0mm\n0mm\n0mm\n0mm\n\n\nVitesse du vent\n 22km/h\n 13km/h\n 21km/h\n 30km/h"
+  }
+]
