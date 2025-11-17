@@ -1,10 +1,11 @@
 ---
-title: Météo Jeanne
+title: Météo à Montpellier
 output:
   quarto::quarto_document:
     css: "style.css"
 jupiter: python3
 ---
+Ce site affiche les prévisions météorologiques pour Montpellier, France, en utilisant l'API Open-Meteo. Les données sont mises à jour quotidiennement à 5h00 (UTC) via un workflow GitHub Actions. Le code source est disponible sur [GitHub](https://github.com/jeannemann/Projet-perso.git).
 ```{python}
 #| echo: false
 # %%
@@ -148,4 +149,6 @@ html_content=f"""
 </table>
 """
 display(HTML(html_content))
+
+Site créé
 ```
