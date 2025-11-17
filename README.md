@@ -10,6 +10,7 @@ Ce site a été créé à l'origine dans le cadre d'un projet scolaire de l'UE "
 - la création d'un site web simple avec Quarto,
 - la mise en ligne via GitHub Pages,
 - et l'automatisation des mises à jour avec GitHub Actions.
+
 La consigne était d'appliquer les compétences d'un data scientist en programmation, gestion de données et développement web dans un premier projet concret : créer un site internet donnant les prévisions météorologiques à Montpellier sur 4 jours à partir de données disponibles sur le site internet OpenMeteo (disponible à l'adresse suivante : https://open-meteo.com/en/docs/meteofrance-api).
 
 Le projet a été réalisé en autonomie en Septmebre/Octobre 2023 et évalué à l'époque à 16/20.
